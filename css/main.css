@@ -2367,6 +2367,8 @@ fieldset {
 
 .banner-image-container {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .left-picture {
@@ -2589,6 +2591,7 @@ a {
 }
 
 .detail-list {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -2600,11 +2603,11 @@ a {
   align-content: center;
   align-items: center;
   transition: background 0.2s;
-  width: 100%;
+  width: 95%;
   padding: 0.25rem 1.5rem;
   text-decoration: none;
   color: inherit;
-  margin: 6px 0;
+  margin: 8px 10px;
 }
 
 .detail-list .detail-item:hover {

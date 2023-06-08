@@ -2620,9 +2620,17 @@ a {
   width: 100px;
   height: 100px;
 }
-
+.fa-solid,
+.fa-utensils{ 
+  left: 12px;
+} 
+.fa-location-dot 
+{
+  left: 15px;
+}
 .fa-facebook,
-.fa-link {
+.fa-link 
+{
   left: 16px;
 }
 
@@ -2633,7 +2641,7 @@ a {
 
 .fa-instagram,
 .fa-whatsapp {
-  left: 14px;
+  left: 80px;
 }
 
 .detail-list .detail-icon-circle {
@@ -2656,7 +2664,7 @@ a {
 }
 
 #phone-icon {
-  background: #2eb133;
+  background: #ebd6bf;
 }
 
 #whatsapp-icon {
@@ -2674,9 +2682,11 @@ a {
     #285aeb 90%
   );
 }
-
+#food-icon{
+  background: #ebd6bf;
+}
 #facebook-icon {
-  background: #0099ff;
+  background: #ebd6bf;
 }
 #save-icon {
   background: #ffffff;
@@ -2696,7 +2706,7 @@ a {
 }
 
 .detail-list .detail-icon-circle .detail-icon {
-  color: inherit;
+  color:#4d0000;
 }
 
 .detail-list .detail-data {

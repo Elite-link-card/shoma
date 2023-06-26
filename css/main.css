@@ -2166,7 +2166,7 @@ fieldset {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: ;
+  height: 100% ;
   background: #000000;
   padding: 2rem 0;
 }
@@ -2174,7 +2174,7 @@ fieldset {
 @media screen and (max-width: 440px) {
   .card-page {
     padding: 0;
-    background: #ebd6bf;
+    background: #774612;
   }
 }
 
@@ -2185,11 +2185,14 @@ fieldset {
   justify-content: center;
   position: relative;
   border-radius: 12px;
-  background: #ebd6bf;
-  width: 100%;
-  box-shadow: hsl(0, 0%, 0%) 0px 0px 0px 1px, rgba(0, 0, 0, 0.995) 0px 3px 6px,
-    rgba(#ebd6bf) 0px 9px 24px;
-}
+  background: #f20000;
+  background-image: url('k9.png');} 
+  
+   .background-image {
+    width: 9%;
+    height: 600px;
+  }
+
 
 @media screen and (max-width: 440px) {
   .blinq-card {
@@ -2461,7 +2464,7 @@ fieldset {
 
 a {
   display: block;
-  background: #4b0000;
+  background: #4b00009a;
   color: #4b0000;
   padding: 50px;
 

@@ -34,76 +34,15 @@
         <meta name="twitter:image:alt" content="Shoma&#x27;s profile picture"/>
         <meta property="twitter:url" content=/>
         <script nonce="0129ea92-21bb-402a-9f4d-1bbb5f280be3">
-            (function(w, d) {
-                !function(dk, dl, dm, dn) {
-                    dk[dm] = dk[dm] || {};
-                    dk[dm].executed = [];
-                    dk.zaraz = {
-                        deferred: [],
-                        listeners: []
-                    };
-                    dk.zaraz.q = [];
-                    dk.zaraz._f = function(dp) {
-                        return function() {
-                            var dq = Array.prototype.slice.call(arguments);
-                            dk.zaraz.q.push({
-                                m: dp,
-                                a: dq
-                            })
-                        }
-                    }
-                    ;
-                    for (const dr of ["track", "set", "debug"])
-                        dk.zaraz[dr] = dk.zaraz._f(dr);
-                    dk.zaraz.init = ()=>{
-                        var ds = dl.getElementsByTagName(dn)[0]
-                          , dt = dl.createElement(dn)
-                          , du = dl.getElementsByTagName("title")[0];
-                        du && (dk[dm].t = dl.getElementsByTagName("title")[0].text);
-                        dk[dm].x = Math.random();
-                        dk[dm].w = dk.screen.width;
-                        dk[dm].h = dk.screen.height;
-                        dk[dm].j = dk.innerHeight;
-                        dk[dm].e = dk.innerWidth;
-                        dk[dm].l = dk.location.href;
-                        dk[dm].r = dl.referrer;
-                        dk[dm].k = dk.screen.colorDepth;
-                        dk[dm].n = dl.characterSet;
-                        dk[dm].o = (new Date).getTimezoneOffset();
-                        dk[dm].q = [];
-                        for (; dk.zaraz.q.length; ) {
-                            const dB = dk.zaraz.q.shift();
-                            dk[dm].q.push(dB)
-                        }
-                        dt.defer = !0;
-                        for (const dC of [localStorage, sessionStorage])
-                            Object.keys(dC || {}).filter((dE=>dE.startsWith("_zaraz_"))).forEach((dD=>{
-                                try {
-                                    dk[dm]["z_" + dD.slice(7)] = JSON.parse(dC.getItem(dD))
-                                } catch {
-                                    dk[dm]["z_" + dD.slice(7)] = dC.getItem(dD)
-                                }
-                            }
-                            ));
-                        dt.referrerPolicy = "origin";
-                        dt.src = "/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(dk[dm])));
-                        ds.parentNode.insertBefore(dt, ds)
-                    }
-                    ;
-                    ["complete", "interactive"].includes(dl.readyState) ? zaraz.init() : dk.addEventListener("DOMContentLoaded", zaraz.init)
-                }(w, d, "zarazData", "script");
-            }
-            )(window, document);
-        </script>
+      
+    
     </head>
-    <body>
-        <script id="data" type="application/json">
-        </script>
+    <body>        </script>
         <img src="/img/logo.png" style="display: none" loading="lazy"/>
         <div id="app">
             <div class="card-page" style='--card-color: 58,74,248; --accent-color: 58,74,248, 0.14; --contrasting-color: #fff'>
                 <div class="blinq-card">
-                    <img class="banner-image" alt="Banner" src="./assets/logo.png"
+                    <img class="banner-image" alt="Banner" src="New/logo.png"
                             data-image-type="cover" data-editor-version="none">
                     <div class="links-and-notes">
                         <ul class="detail-list">
@@ -173,7 +112,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="detail-item" href="./assets/menu shoma.pdf" onclick="Blinq.handleFieldClick('url', {&quot;id&quot;:&quot;lgOMvedZTMQjKD7gAbOk&quot;,&quot;title&quot;:&quot;Facebook&quot;,&quot;value&quot;:&quot;https://www.facebook.com/profile.php?id&#x3D;100013028137023&amp;mibextid&#x3D;ZbWKwL&quot;,&quot;type&quot;:&quot;facebook&quot;,&quot;isPreset&quot;:false})">
+                                <a class="detail-item" href="New/downloadfile.PDF" onclick="Blinq.handleFieldClick('url', {&quot;id&quot;:&quot;lgOMvedZTMQjKD7gAbOk&quot;,&quot;title&quot;:&quot;Facebook&quot;,&quot;value&quot;:&quot;https://www.facebook.com/profile.php?id&#x3D;100013028137023&amp;mibextid&#x3D;ZbWKwL&quot;,&quot;type&quot;:&quot;facebook&quot;,&quot;isPreset&quot;:false})">
                                     <div class="detail-icon-circle" id="food-icon">
                                         <i class="fa-solid fa-bars fa-lg detail-icon"></i>
                                     </div>
@@ -215,7 +154,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="detail-item" href="Mohamed Hamdy.vcf"
+                                <a class="detail-item" href="shoma.vcf"
                                     onclick="Blinq.handleFieldClick('phone_number', {&quot;id&quot;:&quot;TQLKeaVTAQbDKv8RNx9u&quot;,&quot;label&quot;:&quot;Phone&quot;,&quot;value&quot;:&quot;01069239449&quot;,&quot;isPreset&quot;:false,&quot;extension&quot;:&quot;&quot;})">
                                     <div class="detail-icon-circle" id="phone-icon">
                                         <i class="fa fa-phone fa-lg detail-icon"></i>

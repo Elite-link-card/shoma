@@ -18,7 +18,7 @@
 }
 
 .modal.fit-to-card {
-  max-width: 440px;
+  max-width: 100%;
 }
 
 .modal:not(.bottom-sheet) {
@@ -1203,7 +1203,7 @@ fieldset {
   z-index: 2;
 }
 
-@media screen and (min-height: 440px) {
+@media screen and (min-height: 100%) {
   .modal-btn-container.sticky-until-small-screen {
     position: sticky;
   }
@@ -2166,20 +2166,22 @@ fieldset {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100% ;
-  background: #000000;
-  padding: 2rem 0;
+  height: 00% ;
+  background: #be1515c8;
+  background-image: url(9.png);
+  padding: 0rem 0;
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 100%) {
   .card-page {
     padding: 0;
-    background: #774612;
+    background: #ffffff;
   }
 }
 
 .blinq-card {
-  max-width: 440px;
+  max-width: 100%;
+  max-height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2187,11 +2189,8 @@ fieldset {
   border-radius: 12px;
   background: #f2000000;
   background-image: url('k9.png');} 
+ 
   
-   .background-image {
-    width: 9%;
-    height: 600px;
-  }
 
 
 @media screen and (max-width: 440px) {
@@ -2467,10 +2466,9 @@ a {
   background: #4b00009a;
   color: #4b00009a;
   padding: 50px;
-  position: center;
-transform: translateX(10px);
   text-decoration: none;
-  width: 900px;
+  width: 412px;
+  transform: translateX(-5px);
   text-align: left;
   border-radius: 5000px;
   font-size: 90px;
@@ -2826,7 +2824,7 @@ transform: translateX(10px);
   border-top: 1px solid var(--primary-200);
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 100%) {
   .save-btn-container-sib-override {
     position: fixed;
     left: 0;

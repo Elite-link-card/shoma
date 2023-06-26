@@ -2185,7 +2185,7 @@ fieldset {
   justify-content: center;
   position: relative;
   border-radius: 12px;
-  background: #f20000;
+  background: #f2000000;
   background-image: url('k9.png');} 
   
    .background-image {
@@ -2465,9 +2465,10 @@ fieldset {
 a {
   display: block;
   background: #4b00009a;
-  color: #4b0000;
+  color: #4b00009a;
   padding: 50px;
-
+  position: center;
+transform: translateX(10px);
   text-decoration: none;
   width: 900px;
   text-align: left;
